@@ -1,7 +1,11 @@
 namespace Tiptong.Framework.Domain.Contracts
 {
+    using System;
+
     public interface ISoftDeletable
     {
-        bool isDeleted { get; set; }
+        bool IsDeleted { get; set; }
+
+        DateTime? DeletionTime { get; set; }
     }
 }
