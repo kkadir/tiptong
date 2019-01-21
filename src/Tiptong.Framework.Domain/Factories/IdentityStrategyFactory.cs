@@ -4,9 +4,9 @@ namespace Tiptong.Framework.Domain.Factories
     using Tiptong.Framework.Domain.Contracts;
     using Tiptong.Framework.Domain.Strategies;
 
-    public static class IdentityStrategyFactory
+    internal static class IdentityStrategyFactory
     {
-        public static IIdentityStrategy<T> GetIdentityStrategy<T>()
+        internal static IIdentityStrategy<T> GetIdentityStrategy<T>()
         {
             if (typeof(T) == typeof(int))
             {
