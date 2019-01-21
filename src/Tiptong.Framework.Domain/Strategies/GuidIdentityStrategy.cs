@@ -38,6 +38,13 @@ namespace Tiptong.Framework.Domain.Strategies
 
         public bool ValidateIdentity(Guid identity)
         {
+            if (identity == Guid.Empty 
+                || identity == null
+                || identity == default(Guid))
+            {
+                return false;
+            }
+
             // 1. Get the 7th byte
             byte b = identity.ToByteArray()[6];
 
