@@ -6,8 +6,10 @@ namespace Tiptong.Framework.Domain.Contracts
 
         T GenerateIdentity();
 
-        void SetIdentity();
+        void SetIdentity(T identity);
 
-        bool ValidateIdentity();
+        bool HasValidIdentity();
+
+        bool ValidateIdentity(T identity);
     }
 }
