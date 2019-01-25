@@ -1,5 +1,4 @@
 using System;
-using Moq;
 using Xunit;
 using Tiptong.Framework.Domain;
 using Tiptong.Framework.Domain.Contracts;
@@ -8,14 +7,53 @@ namespace Tiptong.Framework.Domain.Tests
 {
     public class EntityTests
     {
-        [Fact]
-        public void Test1()
+        [Theory]
+        [InlineData(typeof(MockIntegerEntity))]
+        [InlineData(typeof(MockGuidEntity))]
+        [InlineData(typeof(MockLongEntity))]
+        public void Generates_Valid_Identity(Type entityType)
         {
-            var entity = new Mock<IEntity<int>>();
+            // Arrange
+            dynamic entity = Activator.CreateInstance(entityType);
 
-            entity.SetIdentity(4);
+            // Act
+            var identity = entity.GenerateIdentity();
 
-            Assert.Equal(entity.Id, 5);
+            // Assert
+            Assert.True(entity.ValidateIdentity(identity));
+        }
+
+        [Fact]
+        public void Cannot_Create_Entity_Without_Valid_Identity_Strategy()
+        {
+            // Arrange
+            
+
+            // Act
+            Action act = () => new MockStringEntity();
+
+            // Assert
+            Assert.Throws<InvalidOperationException>(act);
+        }
+
+        private class MockIntegerEntity : Entity<int>
+        {
+            public string Name { get; set; }
+        }
+
+        private class MockGuidEntity : Entity<Guid>
+        {
+            public string Name { get; set; }
+        }
+
+        private class MockLongEntity : Entity<long>
+        {
+            public string Name { get; set; }
+        }
+
+        private class MockStringEntity : Entity<string>
+        {
+            public string Name { get; set; }
         }
     }
 }
