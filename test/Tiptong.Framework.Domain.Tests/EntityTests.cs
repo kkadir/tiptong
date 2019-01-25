@@ -11,7 +11,7 @@ namespace Tiptong.Framework.Domain.Tests
         [InlineData(typeof(MockIntegerEntity))]
         [InlineData(typeof(MockGuidEntity))]
         [InlineData(typeof(MockLongEntity))]
-        public void Generates_Valid_Identity(Type entityType)
+        public void Identity_Strategy_Generates_Valid_Idenity(Type entityType)
         {
             // Arrange
             dynamic entity = Activator.CreateInstance(entityType);
@@ -34,6 +34,45 @@ namespace Tiptong.Framework.Domain.Tests
 
             // Assert
             Assert.Throws<InvalidOperationException>(act);
+        }
+
+        [Theory]
+        [InlineData(typeof(MockIntegerEntity))]
+        [InlineData(typeof(MockGuidEntity))]
+        [InlineData(typeof(MockLongEntity))]
+        public void Can_Set_Valid_Identity(Type entityType)
+        {
+            // Arrange
+            dynamic entity = Activator.CreateInstance(entityType);
+            dynamic identity = entity.GenerateIdentity();            
+
+            // Act
+            entity.SetIdentity(identity);
+
+            // Assert
+            Assert.Equal(identity, entity.Id);
+        }
+
+        [Theory]
+        [InlineData(typeof(MockIntegerEntity))]
+        [InlineData(typeof(MockGuidEntity))]
+        [InlineData(typeof(MockLongEntity))]
+        public void Cannot_Set_Invalid_Identity(Type entityType)
+        {
+            // Arrange
+            dynamic entity = Activator.CreateInstance(entityType);
+            dynamic identity = entity.GenerateIdentity();
+            entity.SetIdentity(identity);
+
+            Type type = identity.GetType();
+            dynamic defaultIdentity = Activator.CreateInstance(type);
+
+            // Act
+            entity.SetIdentity(defaultIdentity);
+
+            // // Assert
+            Assert.Equal(identity, entity.Id);
+            Assert.NotEqual(defaultIdentity, entity.Id);
         }
 
         private class MockIntegerEntity : Entity<int>
