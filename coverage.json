@@ -1,0 +1,1212 @@
+{
+  "SourcePath": "C:\\projects\\tiptong\\",
+  "HitsFile": "C:\\projects\\tiptong\\coverage-hits.txt",
+  "ExtraAssemblies": [
+    "C:\\projects\\tiptong\\test\\Tiptong.Framework.Domain.Tests\\bin\\Debug\\netcoreapp2.2\\dotnet-minicover.dll"
+  ],
+  "Assemblies": [
+    {
+      "Name": "Tiptong.Framework.Domain",
+      "SourceFiles": {
+        "src\\Tiptong.Framework.Domain\\Entity.cs": {
+          "Instructions": [
+            {
+              "Id": 1,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "get_Id",
+              "MethodFullName": "T Tiptong.Framework.Domain.Entity`1::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 2,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 36,
+              "EndColumn": 41,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void Tiptong.Framework.Domain.Entity`1::set_Id(T)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 3,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 57,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "T Tiptong.Framework.Domain.Entity`1::GenerateIdentity()",
+              "Instruction": "IL_0001: ldarg "
+            },
+            {
+              "Id": 4,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 13,
+              "EndColumn": 41,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "HasValidIdentity",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::HasValidIdentity()",
+              "Instruction": "IL_0001: ldarg "
+            },
+            {
+              "Id": 5,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 43,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "SetIdentity",
+              "MethodFullName": "System.Void Tiptong.Framework.Domain.Entity`1::SetIdentity(T)",
+              "Instruction": "IL_0001: ldarg "
+            },
+            {
+              "Id": 6,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 17,
+              "EndColumn": 31,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "SetIdentity",
+              "MethodFullName": "System.Void Tiptong.Framework.Domain.Entity`1::SetIdentity(T)",
+              "Instruction": "IL_000d: ldarg "
+            },
+            {
+              "Id": 7,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 13,
+              "EndColumn": 65,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "ValidateIdentity",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::ValidateIdentity(T)",
+              "Instruction": "IL_0001: ldarg "
+            },
+            {
+              "Id": 8,
+              "StartLine": 39,
+              "EndLine": 39,
+              "StartColumn": 13,
+              "EndColumn": 52,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::Equals(System.Object)",
+              "Instruction": "IL_0001: ldarg obj"
+            },
+            {
+              "Id": 9,
+              "StartLine": 41,
+              "EndLine": 41,
+              "StartColumn": 17,
+              "EndColumn": 30,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::Equals(System.Object)",
+              "Instruction": "IL_0018: ldc.i4 0"
+            },
+            {
+              "Id": 10,
+              "StartLine": 44,
+              "EndLine": 44,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::Equals(System.Object)",
+              "Instruction": "IL_001f: ldarg "
+            },
+            {
+              "Id": 11,
+              "StartLine": 46,
+              "EndLine": 46,
+              "StartColumn": 17,
+              "EndColumn": 29,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::Equals(System.Object)",
+              "Instruction": "IL_0028: ldc.i4 1"
+            },
+            {
+              "Id": 12,
+              "StartLine": 49,
+              "EndLine": 49,
+              "StartColumn": 13,
+              "EndColumn": 40,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::Equals(System.Object)",
+              "Instruction": "IL_002f: ldarg obj"
+            },
+            {
+              "Id": 13,
+              "StartLine": 50,
+              "EndLine": 50,
+              "StartColumn": 13,
+              "EndColumn": 66,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::Equals(System.Object)",
+              "Instruction": "IL_0036: ldarg "
+            },
+            {
+              "Id": 14,
+              "StartLine": 52,
+              "EndLine": 52,
+              "StartColumn": 17,
+              "EndColumn": 30,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::Equals(System.Object)",
+              "Instruction": "IL_0051: ldc.i4 0"
+            },
+            {
+              "Id": 15,
+              "StartLine": 55,
+              "EndLine": 56,
+              "StartColumn": 13,
+              "EndColumn": 79,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::Equals(System.Object)",
+              "Instruction": "IL_0055: ldarg "
+            },
+            {
+              "Id": 16,
+              "StartLine": 58,
+              "EndLine": 58,
+              "StartColumn": 17,
+              "EndColumn": 30,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::Equals(System.Object)",
+              "Instruction": "IL_0090: ldc.i4 0"
+            },
+            {
+              "Id": 17,
+              "StartLine": 61,
+              "EndLine": 61,
+              "StartColumn": 13,
+              "EndColumn": 40,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::Equals(System.Object)",
+              "Instruction": "IL_0094: ldarg "
+            },
+            {
+              "Id": 18,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "op_Equality",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::op_Equality(Tiptong.Framework.Domain.Entity`1<T>,Tiptong.Framework.Domain.Entity`1<T>)",
+              "Instruction": "IL_0001: ldarg left"
+            },
+            {
+              "Id": 19,
+              "StartLine": 68,
+              "EndLine": 68,
+              "StartColumn": 17,
+              "EndColumn": 44,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "op_Equality",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::op_Equality(Tiptong.Framework.Domain.Entity`1<T>,Tiptong.Framework.Domain.Entity`1<T>)",
+              "Instruction": "IL_000d: ldarg right"
+            },
+            {
+              "Id": 20,
+              "StartLine": 71,
+              "EndLine": 71,
+              "StartColumn": 13,
+              "EndColumn": 39,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "op_Equality",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::op_Equality(Tiptong.Framework.Domain.Entity`1<T>,Tiptong.Framework.Domain.Entity`1<T>)",
+              "Instruction": "IL_0017: ldarg left"
+            },
+            {
+              "Id": 21,
+              "StartLine": 76,
+              "EndLine": 76,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "op_Inequality",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Entity`1::op_Inequality(Tiptong.Framework.Domain.Entity`1<T>,Tiptong.Framework.Domain.Entity`1<T>)",
+              "Instruction": "IL_0001: ldarg left"
+            },
+            {
+              "Id": 22,
+              "StartLine": 81,
+              "EndLine": 81,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.Entity`1::GetHashCode()",
+              "Instruction": "IL_0001: ldarg "
+            },
+            {
+              "Id": 23,
+              "StartLine": 83,
+              "EndLine": 83,
+              "StartColumn": 17,
+              "EndColumn": 41,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.Entity`1::GetHashCode()",
+              "Instruction": "IL_000c: ldarg "
+            },
+            {
+              "Id": 24,
+              "StartLine": 86,
+              "EndLine": 86,
+              "StartColumn": 13,
+              "EndColumn": 22,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.Entity`1::GetHashCode()",
+              "Instruction": "IL_0023: ldc.i4 0"
+            },
+            {
+              "Id": 25,
+              "StartLine": 91,
+              "EndLine": 91,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": "ToString",
+              "MethodFullName": "System.String Tiptong.Framework.Domain.Entity`1::ToString()",
+              "Instruction": "IL_0001: ldstr \"[{0} {1}]\""
+            },
+            {
+              "Id": 26,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 9,
+              "EndColumn": 116,
+              "Class": "Tiptong.Framework.Domain.Entity`1",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void Tiptong.Framework.Domain.Entity`1::.ctor()",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "src\\Tiptong.Framework.Domain\\Factories\\IdentityStrategyFactory.cs": {
+          "Instructions": [
+            {
+              "Id": 100,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 13,
+              "EndColumn": 42,
+              "Class": "Tiptong.Framework.Domain.Factories.IdentityStrategyFactory",
+              "Method": "GetIdentityStrategy",
+              "MethodFullName": "Tiptong.Framework.Domain.Contracts.IIdentityStrategy`1<T> Tiptong.Framework.Domain.Factories.IdentityStrategyFactory::GetIdentityStrategy()",
+              "Instruction": "IL_0001: ldtoken T"
+            },
+            {
+              "Id": 101,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 17,
+              "EndColumn": 78,
+              "Class": "Tiptong.Framework.Domain.Factories.IdentityStrategyFactory",
+              "Method": "GetIdentityStrategy",
+              "MethodFullName": "Tiptong.Framework.Domain.Contracts.IIdentityStrategy`1<T> Tiptong.Framework.Domain.Factories.IdentityStrategyFactory::GetIdentityStrategy()",
+              "Instruction": "IL_001f: newobj System.Void Tiptong.Framework.Domain.Strategies.IntegerIdentityStrategy::.ctor()"
+            },
+            {
+              "Id": 102,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 18,
+              "EndColumn": 48,
+              "Class": "Tiptong.Framework.Domain.Factories.IdentityStrategyFactory",
+              "Method": "GetIdentityStrategy",
+              "MethodFullName": "Tiptong.Framework.Domain.Contracts.IIdentityStrategy`1<T> Tiptong.Framework.Domain.Factories.IdentityStrategyFactory::GetIdentityStrategy()",
+              "Instruction": "IL_002c: ldtoken T"
+            },
+            {
+              "Id": 103,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 17,
+              "EndColumn": 75,
+              "Class": "Tiptong.Framework.Domain.Factories.IdentityStrategyFactory",
+              "Method": "GetIdentityStrategy",
+              "MethodFullName": "Tiptong.Framework.Domain.Contracts.IIdentityStrategy`1<T> Tiptong.Framework.Domain.Factories.IdentityStrategyFactory::GetIdentityStrategy()",
+              "Instruction": "IL_004a: newobj System.Void Tiptong.Framework.Domain.Strategies.LongIdentityStrategy::.ctor()"
+            },
+            {
+              "Id": 104,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 18,
+              "EndColumn": 48,
+              "Class": "Tiptong.Framework.Domain.Factories.IdentityStrategyFactory",
+              "Method": "GetIdentityStrategy",
+              "MethodFullName": "Tiptong.Framework.Domain.Contracts.IIdentityStrategy`1<T> Tiptong.Framework.Domain.Factories.IdentityStrategyFactory::GetIdentityStrategy()",
+              "Instruction": "IL_0057: ldtoken T"
+            },
+            {
+              "Id": 105,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 17,
+              "EndColumn": 75,
+              "Class": "Tiptong.Framework.Domain.Factories.IdentityStrategyFactory",
+              "Method": "GetIdentityStrategy",
+              "MethodFullName": "Tiptong.Framework.Domain.Contracts.IIdentityStrategy`1<T> Tiptong.Framework.Domain.Factories.IdentityStrategyFactory::GetIdentityStrategy()",
+              "Instruction": "IL_0075: newobj System.Void Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::.ctor()"
+            },
+            {
+              "Id": 106,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 13,
+              "EndColumn": 114,
+              "Class": "Tiptong.Framework.Domain.Factories.IdentityStrategyFactory",
+              "Method": "GetIdentityStrategy",
+              "MethodFullName": "Tiptong.Framework.Domain.Contracts.IIdentityStrategy`1<T> Tiptong.Framework.Domain.Factories.IdentityStrategyFactory::GetIdentityStrategy()",
+              "Instruction": "IL_0082: ldstr \"Type: {0} Doesn't Have an Identity Strategy Defined.\""
+            }
+          ]
+        },
+        "src\\Tiptong.Framework.Domain\\Strategies\\GuidIdentityStrategy.cs": {
+          "Instructions": [
+            {
+              "Id": 72,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 13,
+              "EndColumn": 55,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0001: call System.Guid System.Guid::NewGuid()"
+            },
+            {
+              "Id": 73,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 13,
+              "EndColumn": 75,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_000f: call System.DateTime System.DateTime::get_UtcNow()"
+            },
+            {
+              "Id": 74,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 13,
+              "EndColumn": 58,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0023: ldloc V_0"
+            },
+            {
+              "Id": 75,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 13,
+              "EndColumn": 40,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_002c: ldloc V_2"
+            },
+            {
+              "Id": 76,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 40,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0032: ldloc V_2"
+            },
+            {
+              "Id": 77,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 13,
+              "EndColumn": 40,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0038: ldloc V_2"
+            },
+            {
+              "Id": 78,
+              "StartLine": 18,
+              "EndLine": 18,
+              "StartColumn": 13,
+              "EndColumn": 40,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_003e: ldloc V_2"
+            },
+            {
+              "Id": 79,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 13,
+              "EndColumn": 40,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0044: ldloc V_2"
+            },
+            {
+              "Id": 80,
+              "StartLine": 20,
+              "EndLine": 20,
+              "StartColumn": 13,
+              "EndColumn": 40,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_004a: ldloc V_2"
+            },
+            {
+              "Id": 81,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 13,
+              "EndColumn": 40,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0050: ldloc V_2"
+            },
+            {
+              "Id": 82,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 13,
+              "EndColumn": 63,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0056: ldloc V_2"
+            },
+            {
+              "Id": 83,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0066: ldloc V_2"
+            },
+            {
+              "Id": 84,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_006d: ldloc V_2"
+            },
+            {
+              "Id": 85,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0073: ldloc V_2"
+            },
+            {
+              "Id": 86,
+              "StartLine": 30,
+              "EndLine": 30,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_007a: ldloc V_2"
+            },
+            {
+              "Id": 87,
+              "StartLine": 31,
+              "EndLine": 31,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0081: ldloc V_2"
+            },
+            {
+              "Id": 88,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0088: ldloc V_2"
+            },
+            {
+              "Id": 89,
+              "StartLine": 33,
+              "EndLine": 33,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_008f: ldloc V_2"
+            },
+            {
+              "Id": 90,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0096: ldloc V_2"
+            },
+            {
+              "Id": 91,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Guid Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_009d: ldloc V_2"
+            },
+            {
+              "Id": 92,
+              "StartLine": 41,
+              "EndLine": 43,
+              "StartColumn": 13,
+              "EndColumn": 46,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "ValidateIdentity",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::ValidateIdentity(System.Guid)",
+              "Instruction": "IL_0001: ldarg identity"
+            },
+            {
+              "Id": 93,
+              "StartLine": 45,
+              "EndLine": 45,
+              "StartColumn": 17,
+              "EndColumn": 30,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "ValidateIdentity",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::ValidateIdentity(System.Guid)",
+              "Instruction": "IL_0025: ldc.i4 0"
+            },
+            {
+              "Id": 94,
+              "StartLine": 49,
+              "EndLine": 49,
+              "StartColumn": 13,
+              "EndColumn": 48,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "ValidateIdentity",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::ValidateIdentity(System.Guid)",
+              "Instruction": "IL_0029: ldarga identity"
+            },
+            {
+              "Id": 95,
+              "StartLine": 52,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 39,
+              "Class": "Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy",
+              "Method": "ValidateIdentity",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Strategies.GuidIdentityStrategy::ValidateIdentity(System.Guid)",
+              "Instruction": "IL_0033: ldc.i4 192"
+            }
+          ]
+        },
+        "src\\Tiptong.Framework.Domain\\Strategies\\IntegerIdentityStrategy.cs": {
+          "Instructions": [
+            {
+              "Id": 96,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 13,
+              "EndColumn": 81,
+              "Class": "Tiptong.Framework.Domain.Strategies.IntegerIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.Strategies.IntegerIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0001: call System.DateTime System.DateTime::get_Now()"
+            },
+            {
+              "Id": 97,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "Tiptong.Framework.Domain.Strategies.IntegerIdentityStrategy",
+              "Method": "ValidateIdentity",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Strategies.IntegerIdentityStrategy::ValidateIdentity(System.Int32)",
+              "Instruction": "IL_0001: ldarg identity"
+            }
+          ]
+        },
+        "src\\Tiptong.Framework.Domain\\Strategies\\LongIdentityStrategy.cs": {
+          "Instructions": [
+            {
+              "Id": 98,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 13,
+              "EndColumn": 81,
+              "Class": "Tiptong.Framework.Domain.Strategies.LongIdentityStrategy",
+              "Method": "GenerateIdentity",
+              "MethodFullName": "System.Int64 Tiptong.Framework.Domain.Strategies.LongIdentityStrategy::GenerateIdentity()",
+              "Instruction": "IL_0001: call System.DateTime System.DateTime::get_Now()"
+            },
+            {
+              "Id": 99,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 13,
+              "EndColumn": 33,
+              "Class": "Tiptong.Framework.Domain.Strategies.LongIdentityStrategy",
+              "Method": "ValidateIdentity",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.Strategies.LongIdentityStrategy::ValidateIdentity(System.Int64)",
+              "Instruction": "IL_0001: ldarg identity"
+            }
+          ]
+        },
+        "src\\Tiptong.Framework.Domain\\ValueObject.cs": {
+          "Instructions": [
+            {
+              "Id": 27,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(T)",
+              "Instruction": "IL_0015: ldloc V_0"
+            },
+            {
+              "Id": 28,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 17,
+              "EndColumn": 30,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(T)",
+              "Instruction": "IL_002b: ldc.i4 0"
+            },
+            {
+              "Id": 29,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 46,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(T)",
+              "Instruction": "IL_002f: ldarg "
+            },
+            {
+              "Id": 30,
+              "StartLine": 18,
+              "EndLine": 18,
+              "StartColumn": 17,
+              "EndColumn": 29,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(T)",
+              "Instruction": "IL_0044: ldc.i4 1"
+            },
+            {
+              "Id": 31,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 13,
+              "EndColumn": 76,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(T)",
+              "Instruction": "IL_0048: ldarg "
+            },
+            {
+              "Id": 32,
+              "StartLine": 23,
+              "EndLine": 23,
+              "StartColumn": 13,
+              "EndColumn": 46,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(T)",
+              "Instruction": "IL_0059: ldloc V_1"
+            },
+            {
+              "Id": 33,
+              "StartLine": 25,
+              "EndLine": 39,
+              "StartColumn": 17,
+              "EndColumn": 20,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(T)",
+              "Instruction": "IL_006b: ldloc V_1"
+            },
+            {
+              "Id": 34,
+              "StartLine": 42,
+              "EndLine": 42,
+              "StartColumn": 13,
+              "EndColumn": 25,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(T)",
+              "Instruction": "IL_0080: ldc.i4 1"
+            },
+            {
+              "Id": 35,
+              "StartLine": 47,
+              "EndLine": 47,
+              "StartColumn": 13,
+              "EndColumn": 29,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(System.Object)",
+              "Instruction": "IL_0001: ldarg obj"
+            },
+            {
+              "Id": 36,
+              "StartLine": 49,
+              "EndLine": 49,
+              "StartColumn": 17,
+              "EndColumn": 30,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(System.Object)",
+              "Instruction": "IL_000a: ldc.i4 0"
+            },
+            {
+              "Id": 37,
+              "StartLine": 52,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(System.Object)",
+              "Instruction": "IL_000e: ldarg "
+            },
+            {
+              "Id": 38,
+              "StartLine": 54,
+              "EndLine": 54,
+              "StartColumn": 17,
+              "EndColumn": 29,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(System.Object)",
+              "Instruction": "IL_0017: ldc.i4 1"
+            },
+            {
+              "Id": 39,
+              "StartLine": 57,
+              "EndLine": 57,
+              "StartColumn": 13,
+              "EndColumn": 44,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(System.Object)",
+              "Instruction": "IL_001b: ldarg obj"
+            },
+            {
+              "Id": 40,
+              "StartLine": 59,
+              "EndLine": 59,
+              "StartColumn": 17,
+              "EndColumn": 40,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(System.Object)",
+              "Instruction": "IL_002d: ldarg "
+            },
+            {
+              "Id": 41,
+              "StartLine": 62,
+              "EndLine": 62,
+              "StartColumn": 13,
+              "EndColumn": 26,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "Equals",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::Equals(System.Object)",
+              "Instruction": "IL_003c: ldc.i4 0"
+            },
+            {
+              "Id": 42,
+              "StartLine": 67,
+              "EndLine": 67,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0001: ldc.i4 31"
+            },
+            {
+              "Id": 43,
+              "StartLine": 68,
+              "EndLine": 68,
+              "StartColumn": 13,
+              "EndColumn": 43,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0004: ldc.i4 0"
+            },
+            {
+              "Id": 44,
+              "StartLine": 70,
+              "EndLine": 70,
+              "StartColumn": 13,
+              "EndColumn": 87,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0006: ldarg "
+            },
+            {
+              "Id": 45,
+              "StartLine": 72,
+              "EndLine": 72,
+              "StartColumn": 13,
+              "EndColumn": 46,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0017: ldloc V_2"
+            },
+            {
+              "Id": 46,
+              "StartLine": 74,
+              "EndLine": 74,
+              "StartColumn": 17,
+              "EndColumn": 24,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0027: nop"
+            },
+            {
+              "Id": 47,
+              "StartLine": 74,
+              "EndLine": 74,
+              "StartColumn": 42,
+              "EndColumn": 58,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0028: ldloc V_2"
+            },
+            {
+              "Id": 48,
+              "StartLine": 74,
+              "EndLine": 74,
+              "StartColumn": 26,
+              "EndColumn": 38,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0030: ldloc V_4"
+            },
+            {
+              "Id": 49,
+              "StartLine": 76,
+              "EndLine": 76,
+              "StartColumn": 21,
+              "EndColumn": 66,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0038: ldloc V_6"
+            },
+            {
+              "Id": 50,
+              "StartLine": 78,
+              "EndLine": 78,
+              "StartColumn": 21,
+              "EndColumn": 39,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0043: ldloc V_7"
+            },
+            {
+              "Id": 51,
+              "StartLine": 80,
+              "EndLine": 80,
+              "StartColumn": 25,
+              "EndColumn": 103,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_004f: ldloc V_0"
+            },
+            {
+              "Id": 52,
+              "StartLine": 82,
+              "EndLine": 82,
+              "StartColumn": 25,
+              "EndColumn": 62,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0063: ldloc V_1"
+            },
+            {
+              "Id": 53,
+              "StartLine": 86,
+              "EndLine": 86,
+              "StartColumn": 25,
+              "EndColumn": 40,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_006c: ldloc V_0"
+            },
+            {
+              "Id": 54,
+              "StartLine": 74,
+              "EndLine": 74,
+              "StartColumn": 39,
+              "EndColumn": 41,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0079: ldloc V_5"
+            },
+            {
+              "Id": 55,
+              "StartLine": 91,
+              "EndLine": 91,
+              "StartColumn": 13,
+              "EndColumn": 29,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "GetHashCode",
+              "MethodFullName": "System.Int32 Tiptong.Framework.Domain.ValueObject`1::GetHashCode()",
+              "Instruction": "IL_0082: ldloc V_0"
+            },
+            {
+              "Id": 56,
+              "StartLine": 96,
+              "EndLine": 96,
+              "StartColumn": 13,
+              "EndColumn": 46,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "op_Equality",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::op_Equality(Tiptong.Framework.Domain.ValueObject`1<T>,Tiptong.Framework.Domain.ValueObject`1<T>)",
+              "Instruction": "IL_0001: ldarg left"
+            },
+            {
+              "Id": 57,
+              "StartLine": 98,
+              "EndLine": 98,
+              "StartColumn": 17,
+              "EndColumn": 29,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "op_Equality",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::op_Equality(Tiptong.Framework.Domain.ValueObject`1<T>,Tiptong.Framework.Domain.ValueObject`1<T>)",
+              "Instruction": "IL_000a: ldc.i4 1"
+            },
+            {
+              "Id": 58,
+              "StartLine": 101,
+              "EndLine": 101,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "op_Equality",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::op_Equality(Tiptong.Framework.Domain.ValueObject`1<T>,Tiptong.Framework.Domain.ValueObject`1<T>)",
+              "Instruction": "IL_000e: ldarg left"
+            },
+            {
+              "Id": 59,
+              "StartLine": 103,
+              "EndLine": 103,
+              "StartColumn": 17,
+              "EndColumn": 44,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "op_Equality",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::op_Equality(Tiptong.Framework.Domain.ValueObject`1<T>,Tiptong.Framework.Domain.ValueObject`1<T>)",
+              "Instruction": "IL_001a: ldarg right"
+            },
+            {
+              "Id": 60,
+              "StartLine": 107,
+              "EndLine": 107,
+              "StartColumn": 17,
+              "EndColumn": 43,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "op_Equality",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::op_Equality(Tiptong.Framework.Domain.ValueObject`1<T>,Tiptong.Framework.Domain.ValueObject`1<T>)",
+              "Instruction": "IL_0025: ldarg left"
+            },
+            {
+              "Id": 61,
+              "StartLine": 113,
+              "EndLine": 113,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1",
+              "Method": "op_Inequality",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1::op_Inequality(Tiptong.Framework.Domain.ValueObject`1<T>,Tiptong.Framework.Domain.ValueObject`1<T>)",
+              "Instruction": "IL_0001: ldarg left"
+            },
+            {
+              "Id": 62,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 21,
+              "EndColumn": 55,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0",
+              "Method": "<Equals>b__0",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0::<Equals>b__0(System.Reflection.PropertyInfo)",
+              "Instruction": "IL_0001: ldarg p"
+            },
+            {
+              "Id": 63,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 21,
+              "EndColumn": 57,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0",
+              "Method": "<Equals>b__0",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0::<Equals>b__0(System.Reflection.PropertyInfo)",
+              "Instruction": "IL_000f: ldarg p"
+            },
+            {
+              "Id": 64,
+              "StartLine": 31,
+              "EndLine": 31,
+              "StartColumn": 21,
+              "EndColumn": 68,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0",
+              "Method": "<Equals>b__0",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0::<Equals>b__0(System.Reflection.PropertyInfo)",
+              "Instruction": "IL_0022: ldtoken T"
+            },
+            {
+              "Id": 65,
+              "StartLine": 33,
+              "EndLine": 33,
+              "StartColumn": 25,
+              "EndColumn": 61,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0",
+              "Method": "<Equals>b__0",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0::<Equals>b__0(System.Reflection.PropertyInfo)",
+              "Instruction": "IL_003c: ldloc V_0"
+            },
+            {
+              "Id": 66,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 25,
+              "EndColumn": 51,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0",
+              "Method": "<Equals>b__0",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0::<Equals>b__0(System.Reflection.PropertyInfo)",
+              "Instruction": "IL_0044: ldloc V_0"
+            },
+            {
+              "Id": 67,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 21,
+              "EndColumn": 55,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0",
+              "Method": "<Equals>b__0",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0::<Equals>b__0(System.Reflection.PropertyInfo)",
+              "Instruction": "IL_0001: ldarg p"
+            },
+            {
+              "Id": 68,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 21,
+              "EndColumn": 57,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0",
+              "Method": "<Equals>b__0",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0::<Equals>b__0(System.Reflection.PropertyInfo)",
+              "Instruction": "IL_000f: ldarg p"
+            },
+            {
+              "Id": 69,
+              "StartLine": 31,
+              "EndLine": 31,
+              "StartColumn": 21,
+              "EndColumn": 68,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0",
+              "Method": "<Equals>b__0",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0::<Equals>b__0(System.Reflection.PropertyInfo)",
+              "Instruction": "IL_0022: ldtoken T"
+            },
+            {
+              "Id": 70,
+              "StartLine": 33,
+              "EndLine": 33,
+              "StartColumn": 25,
+              "EndColumn": 61,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0",
+              "Method": "<Equals>b__0",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0::<Equals>b__0(System.Reflection.PropertyInfo)",
+              "Instruction": "IL_003c: ldloc V_0"
+            },
+            {
+              "Id": 71,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 25,
+              "EndColumn": 51,
+              "Class": "Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0",
+              "Method": "<Equals>b__0",
+              "MethodFullName": "System.Boolean Tiptong.Framework.Domain.ValueObject`1/<>c__DisplayClass0_0::<Equals>b__0(System.Reflection.PropertyInfo)",
+              "Instruction": "IL_0044: ldloc V_0"
+            }
+          ]
+        }
+      },
+      "Locations": [
+        {
+          "File": "C:\\projects\\tiptong\\test\\Tiptong.Framework.Domain.Tests\\bin\\Debug\\netcoreapp2.2\\Tiptong.Framework.Domain.dll",
+          "BackupFile": "C:\\projects\\tiptong\\test\\Tiptong.Framework.Domain.Tests\\bin\\Debug\\netcoreapp2.2\\Tiptong.Framework.Domain.uninstrumented.dll",
+          "PdbFile": "C:\\projects\\tiptong\\test\\Tiptong.Framework.Domain.Tests\\bin\\Debug\\netcoreapp2.2\\Tiptong.Framework.Domain.pdb",
+          "BackupPdbFile": "C:\\projects\\tiptong\\test\\Tiptong.Framework.Domain.Tests\\bin\\Debug\\netcoreapp2.2\\Tiptong.Framework.Domain.uninstrumented.pdb"
+        }
+      ]
+    }
+  ]
+}
