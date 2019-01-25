@@ -75,6 +75,94 @@ namespace Tiptong.Framework.Domain.Tests
             Assert.NotEqual(defaultIdentity, entity.Id);
         }
 
+        [Theory]
+        [InlineData(typeof(MockIntegerEntity))]
+        [InlineData(typeof(MockGuidEntity))]
+        [InlineData(typeof(MockLongEntity))]
+        public void Can_Self_Validate_Identity(Type entityType)
+        {
+            // Arrange
+            dynamic validEntity = Activator.CreateInstance(entityType);
+            dynamic invalidEntity = Activator.CreateInstance(entityType);
+
+            // Act
+            validEntity.Id = validEntity.GenerateIdentity();
+            invalidEntity.Id = Activator.CreateInstance(invalidEntity.Id.GetType());
+
+            // Assert
+            Assert.True(validEntity.HasValidIdentity());
+            Assert.False(invalidEntity.HasValidIdentity());
+        }
+
+        [Fact]
+        public void Null_Or_NonEntity_Comparison_Fails()
+        {
+            // Arrange
+            var entityLeft = new MockIntegerEntity();
+            object entityNull = null;
+            object nonEntity = String.Empty;
+
+            // Act
+            var areEqualWithNullObject = entityLeft.Equals(entityNull);
+            var areEqualWithNonEntityObject = entityLeft.Equals(nonEntity);
+
+            // Assert
+            Assert.False(areEqualWithNullObject);
+            Assert.False(areEqualWithNonEntityObject);
+        }
+
+        [Fact]
+        public void Same_Reference_Comparison_Succeeds()
+        {
+            // Arrange
+            var entityLeft = new MockIntegerEntity();
+            object entityRight = entityLeft;
+
+            // Act
+            var areEqualWithSameReferenceObject = entityLeft.Equals(entityRight);
+
+            // Assert
+            Assert.True(areEqualWithSameReferenceObject);
+        }
+
+        [Fact]
+        public void Entities_With_Invalid_Identities_Comparison_Fails()
+        {
+            // Arrange
+            var entityLeft = new MockIntegerEntity
+            {
+                Id = 0
+            };
+
+            var entityRight = new MockIntegerEntity
+            {
+                Id = 0
+            };
+
+            // Act
+            var areEqualWithInvalidIdentity = entityLeft.Equals((object)entityRight);
+
+            // Assert
+            Assert.False(areEqualWithInvalidIdentity);
+        }
+
+        [Fact]
+        public void Entities_With_Not_Assignable_Types_Comparison_Fails()
+        {
+            // Arrange
+            var entityLeft = new MockIntegerEntity();
+            entityLeft.SetIdentity(entityLeft.GenerateIdentity());
+
+            var entityRight = new MockGuidEntity();
+            entityRight.SetIdentity(entityRight.GenerateIdentity());
+
+            // Act
+            var areEqualWithUnassignableTypes = entityLeft.Equals((object)entityRight);
+
+            // Assert
+            Assert.False(areEqualWithUnassignableTypes);
+        }
+
         private class MockIntegerEntity : Entity<int>
         {
             public string Name { get; set; }
