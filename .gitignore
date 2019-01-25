@@ -333,3 +333,6 @@ ASALocalRun/
 coverage-html.*
 coverage.json.*
 coverage.hits.*
+coverage-html
+coverage.json
+coverage.hits
