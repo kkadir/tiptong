@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7FC63319-1D1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{60EA2124-41EF-4C3C-B816-635922AE45E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coverage", "coverage\coverage.csproj", "{14B7A2FC-B76B-479F-90DC-B39DA31C11FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coverage", "coverage\coverage.csproj", "{14B7A2FC-B76B-479F-90DC-B39DA31C11FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{9D39A58E-2C7D-4D65-9877-81BD6C963D3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F4C7E81C-9752-491B-8D70-19A3E9275AD9} = {7FC63319-1D12-47E3-B0D5-F26104CB5EF9}
 		{7351BB11-9242-48A3-A9DD-0195B5F8558F} = {60EA2124-41EF-4C3C-B816-635922AE45E1}
+		{14B7A2FC-B76B-479F-90DC-B39DA31C11FE} = {9D39A58E-2C7D-4D65-9877-81BD6C963D3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A3B44E4-7C5B-4A92-8094-6ACC124353E4}

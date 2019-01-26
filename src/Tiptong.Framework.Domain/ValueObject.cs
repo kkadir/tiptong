@@ -25,17 +25,9 @@ namespace Tiptong.Framework.Domain
                 return publicProperties.All(p =>
                 {
                     var left = p.GetValue(this, null);
-
                     var right = p.GetValue(other, null);
 
-                    if (typeof(T).IsAssignableFrom(left.GetType()))
-                    {
-                        return ReferenceEquals(left, right);
-                    }
-                    else
-                    {
-                        return left.Equals(right);
-                    }
+                    return Equals(left, right);
                 });
             }
 
@@ -98,14 +90,12 @@ namespace Tiptong.Framework.Domain
                 return true;
             }
 
-            if (Equals(left, null))
+            if (Equals(left, null) || Equals(right, null))
             {
-                return Equals(right, null);
+                return false;
             }
-            else
-            {
-                return left.Equals(right);
-            }
+
+             return left.Equals(right);            
         }
 
         public static bool operator !=(ValueObject<T> left, ValueObject<T> right)

@@ -52,12 +52,6 @@ namespace Tiptong.Framework.Domain
                 return false;
             }
 
-            if (!GetType().GetTypeInfo().IsAssignableFrom(other.GetType())
-                || !other.GetType().GetTypeInfo().IsAssignableFrom(GetType()))
-            {
-                return false;
-            }
-
             return Id.Equals(other.Id);
         }
 

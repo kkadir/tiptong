@@ -1,10 +1,8 @@
-using System;
-using Xunit;
-using Tiptong.Framework.Domain;
-using Tiptong.Framework.Domain.Contracts;
-
 namespace Tiptong.Framework.Domain.Tests
 {
+    using System;
+    using Xunit;
+
     public class EntityTests
     {
         [Theory]
@@ -157,10 +155,165 @@ namespace Tiptong.Framework.Domain.Tests
             entityRight.SetIdentity(entityRight.GenerateIdentity());
 
             // Act
-            var areEqualWithUnassignableTypes = entityLeft.Equals((object)entityRight);
+            var areEqualWithUnassignableTypes = entityLeft.Equals(entityRight);
 
             // Assert
             Assert.False(areEqualWithUnassignableTypes);
+        }
+
+        [Fact]
+        public void Entities_With_Different_Identities_Comparison_Fails()
+        {
+            // Arrange
+            var entityLeft = new MockIntegerEntity
+            {
+                Id = 13
+            };
+
+            var entityRight = new MockIntegerEntity
+            {
+                Id = 21
+            };
+
+            // Act
+            var areEqualWithDifferentIdentities = entityLeft.Equals(entityRight);
+            var areEqualWithDifferentIdentitiesOps = entityLeft == entityRight;
+            var areNotEqualWithDifferentIdentitiesOps = entityLeft != entityRight;
+
+            // Assert
+            Assert.False(areEqualWithDifferentIdentities);
+            Assert.False(areEqualWithDifferentIdentitiesOps);
+            Assert.True(areNotEqualWithDifferentIdentitiesOps);
+
+        }
+
+        [Fact]
+        public void Entities_With_Same_Identities_Comparison_Succeeds()
+        {
+            // Arrange
+            var entityLeft = new MockIntegerEntity
+            {
+                Id = 13,
+                Name = "First Entity"
+            };
+
+            var entityRight = new MockIntegerEntity
+            {
+                Id = 13,
+                Name = "Second Entity"
+            };
+
+            // Act
+            var areEqualWithSameIdentities = entityLeft.Equals(entityRight);
+            var areEqualWithSameIdentitiesOps = entityLeft == entityRight;
+            var areNotEqualWithSameIdentitiesOps = entityLeft != entityRight;
+
+
+            // Assert
+            Assert.True(areEqualWithSameIdentities);
+            Assert.True(areEqualWithSameIdentitiesOps);
+            Assert.False(areNotEqualWithSameIdentitiesOps);
+        }        
+
+        [Fact]
+        public void Both_Null_Entities_Ops_Comparison_Succeeds()
+        {
+            // Arrange
+            MockIntegerEntity entityLeft = null;
+            MockIntegerEntity entityRight = null;
+
+            // Act
+            var areEqualWithNullValues = entityLeft == entityRight;
+            var areNotEqualWithNullValues = entityLeft != entityRight;
+
+
+            // Assert
+            Assert.True(areEqualWithNullValues);
+            Assert.False(areNotEqualWithNullValues);
+        }
+
+        [Fact]
+        public void Entities_With_Same_Identities_Have_Same_Hash_Codes()
+        {
+            // Arrange
+            var entityLeft = new MockIntegerEntity
+            {
+                Id = 13,
+                Name = "First Entity"
+            };
+
+            var entityRight = new MockIntegerEntity
+            {
+                Id = 13,
+                Name = "Second Entity"
+            };
+
+            // Act
+            var hashLeft = entityLeft.GetHashCode();
+            var hashRight = entityRight.GetHashCode();
+
+
+            // Assert
+            Assert.Equal(hashLeft, hashRight);
+        }
+
+        [Fact]
+        public void Entities_With_Different_Identities_Have_Different_Hash_Codes()
+        {
+            // Arrange
+            var entityLeft = new MockIntegerEntity
+            {
+                Id = 13,
+                Name = "Entity"
+            };
+
+            var entityRight = new MockIntegerEntity
+            {
+                Id = 21,
+                Name = "Entity"
+            };
+
+            // Act
+            var hashLeft = entityLeft.GetHashCode();
+            var hashRight = entityRight.GetHashCode();
+
+
+            // Assert
+            Assert.NotEqual(hashLeft, hashRight);
+        }
+
+        [Fact]
+        public void Entity_With_Invalid_Identity_Has_Zero_Hash_Code()
+        {
+            // Arrange
+            var entity = new MockIntegerEntity
+            {
+                Id = -13
+            };
+
+            // Act
+            var hash = entity.GetHashCode();
+
+
+            // Assert
+            Assert.Equal(0, hash);
+        }
+
+        [Fact]
+        public void Entity_Has_Friendly_String()
+        {
+            // Arrange
+            var entity = new MockIntegerEntity
+            {
+                Id = 13
+            };
+
+            // Act
+            var hash = entity.ToString();
+
+
+            // Assert
+            Assert.Equal("[MockIntegerEntity 13]", hash);
         }
 
         private class MockIntegerEntity : Entity<int>
