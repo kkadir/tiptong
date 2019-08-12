@@ -6,7 +6,7 @@ namespace Tiptong.Framework.Domain.Contracts
     /// Enables auditing of the deletion properties of an <see cref="Entity{T}"/>.
     /// </summary>
     /// <typeparam name="TUser">
-    /// Thetype of the user who deleted the <see cref="Entity{T}"/>.
+    /// The type of the user who deleted the <see cref="Entity{T}"/>.
     /// </typeparam>
     public interface IDeletionAuditable<TUser> where TUser : IEntity<TUser>
     {
@@ -22,6 +22,6 @@ namespace Tiptong.Framework.Domain.Contracts
         /// <value>
         /// The deletion timestamp of the <see cref="Entity{T}"/>.
         /// </value>
-        DateTime? DeletionTimeStamp { get; set; }
+        DateTime? DeletionTimestamp { get; set; }
     }
 }

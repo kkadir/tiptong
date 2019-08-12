@@ -2,10 +2,26 @@ namespace Tiptong.Framework.Domain.Contracts
 {
     using System;
 
-    public interface IModificationAuditable<T>
+    /// <summary>
+    /// Enables auditing of the modification properties of an <see cref="Entity{T}"/>.
+    /// </summary>
+    /// <typeparam name="TUser">
+    /// The type of the user who modified the <see cref="Entity{T}"/>.
+    /// </typeparam>
+    public interface IModificationAuditable<TUser> where TUser : IEntity<TUser>
     {
-        T ModifiedBy { get; set; }
+        /// <summary>
+        /// Gets or sets the user who modified the <see cref="Entity{T}"/>.
+        /// </summary>
+        /// <value> The user who modified the <see cref="Entity{T}"/>. </value>
+        TUser ModifiedBy { get; set; }
 
-        DateTime? ModificationDate { get; set; }
+        /// <summary>
+        /// Gets or sets the modification timestamp of the <see cref="Entity{T}"/>.
+        /// </summary>
+        /// <value>
+        /// The modification timestamp of the <see cref="Entity{T}"/>.
+        /// </value>
+        DateTime? ModificationTimestamp { get; set; }
     }
 }

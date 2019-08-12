@@ -5,7 +5,9 @@ namespace Tiptong.Framework.Domain.Contracts
     /// <summary>
     /// Enables auditing of the creation properties of an <see cref="Entity{T}"/>.
     /// </summary>
-    /// <typeparam name="TUser">The type of the user who created the <see cref="Entity{T}"/>.</typeparam>
+    /// <typeparam name="TUser">
+    /// The type of the user who created the <see cref="Entity{T}"/>.
+    /// </typeparam>
     public interface ICreationAuditable<TUser> where TUser : IEntity<TUser>
     {
         /// <summary>
@@ -20,6 +22,6 @@ namespace Tiptong.Framework.Domain.Contracts
         /// <value>
         /// The creation timestamp of the <see cref="Entity{T}"/>.
         /// </value>
-        DateTime CreationTimeStamp { get; set; }
+        DateTime CreationTimestamp { get; set; }
     }
 }
