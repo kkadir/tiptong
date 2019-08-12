@@ -7,7 +7,7 @@ namespace Tiptong.Framework.Domain.Strategies
     {
         public int GenerateIdentity()
         {
-            return new Random(DateTime.Now.Millisecond).Next(1, Int32.MaxValue);
+            return new Random(DateTime.Now.Millisecond).Next(1, int.MaxValue);
         }
 
         public bool ValidateIdentity(int identity)

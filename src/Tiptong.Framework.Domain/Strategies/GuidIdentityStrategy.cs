@@ -38,7 +38,7 @@ namespace Tiptong.Framework.Domain.Strategies
 
         public bool ValidateIdentity(Guid identity)
         {
-            if (identity == Guid.Empty 
+            if (identity == Guid.Empty
                 || identity == null
                 || identity == default(Guid))
             {

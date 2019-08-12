@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiptong.Framework.Domain", "Tiptong.Framework.Domain\Tiptong.Framework.Domain.csproj", "{38275BE9-6E80-4EB8-B1C4-52F8671BC2E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiptong.Framework.Domain", "Tiptong.Framework.Domain\Tiptong.Framework.Domain.csproj", "{38275BE9-6E80-4EB8-B1C4-52F8671BC2E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiptong.Framework.Dependency", "Tiptong.Framework.Dependency\Tiptong.Framework.Dependency.csproj", "{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiptong.Framework.Identity", "Tiptong.Framework.Identity\Tiptong.Framework.Identity.csproj", "{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{38275BE9-6E80-4EB8-B1C4-52F8671BC2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +31,35 @@ Global
 		{38275BE9-6E80-4EB8-B1C4-52F8671BC2E7}.Release|x64.Build.0 = Release|Any CPU
 		{38275BE9-6E80-4EB8-B1C4-52F8671BC2E7}.Release|x86.ActiveCfg = Release|Any CPU
 		{38275BE9-6E80-4EB8-B1C4-52F8671BC2E7}.Release|x86.Build.0 = Release|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Debug|x64.Build.0 = Debug|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Debug|x86.Build.0 = Debug|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Release|x64.ActiveCfg = Release|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Release|x64.Build.0 = Release|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Release|x86.ActiveCfg = Release|Any CPU
+		{12AF2F6D-9415-40CC-BC96-EB8E77B26BA5}.Release|x86.Build.0 = Release|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Debug|x64.Build.0 = Debug|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Debug|x86.Build.0 = Debug|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Release|x64.ActiveCfg = Release|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Release|x64.Build.0 = Release|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Release|x86.ActiveCfg = Release|Any CPU
+		{8778D4CC-13C8-4B49-AAF0-BB717D55AC4D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B039F2DF-828B-41B7-8B60-C41F6899EEAE}
 	EndGlobalSection
 EndGlobal

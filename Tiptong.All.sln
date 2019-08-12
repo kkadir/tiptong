@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "coverage", "coverage\covera
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{9D39A58E-2C7D-4D65-9877-81BD6C963D3F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiptong.Framework.Specification", "Tiptong.Framework.Specification\Tiptong.Framework.Specification.csproj", "{5DEACB02-87BF-418C-B6BD-B659A5637EF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiptong.Framework.UnitOfWork", "src\Tiptong.Framework.UnitOfWork\Tiptong.Framework.UnitOfWork.csproj", "{F294E500-8DC9-4053-924C-73CA53B47008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{14B7A2FC-B76B-479F-90DC-B39DA31C11FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14B7A2FC-B76B-479F-90DC-B39DA31C11FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14B7A2FC-B76B-479F-90DC-B39DA31C11FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEACB02-87BF-418C-B6BD-B659A5637EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEACB02-87BF-418C-B6BD-B659A5637EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEACB02-87BF-418C-B6BD-B659A5637EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEACB02-87BF-418C-B6BD-B659A5637EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F294E500-8DC9-4053-924C-73CA53B47008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F294E500-8DC9-4053-924C-73CA53B47008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F294E500-8DC9-4053-924C-73CA53B47008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F294E500-8DC9-4053-924C-73CA53B47008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +53,8 @@ Global
 		{F4C7E81C-9752-491B-8D70-19A3E9275AD9} = {7FC63319-1D12-47E3-B0D5-F26104CB5EF9}
 		{7351BB11-9242-48A3-A9DD-0195B5F8558F} = {60EA2124-41EF-4C3C-B816-635922AE45E1}
 		{14B7A2FC-B76B-479F-90DC-B39DA31C11FE} = {9D39A58E-2C7D-4D65-9877-81BD6C963D3F}
+		{5DEACB02-87BF-418C-B6BD-B659A5637EF0} = {7FC63319-1D12-47E3-B0D5-F26104CB5EF9}
+		{F294E500-8DC9-4053-924C-73CA53B47008} = {7FC63319-1D12-47E3-B0D5-F26104CB5EF9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A3B44E4-7C5B-4A92-8094-6ACC124353E4}

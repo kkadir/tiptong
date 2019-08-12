@@ -1,7 +1,5 @@
 namespace Tiptong.Framework.Domain
 {
-    using System;
-    using System.Reflection;
     using Tiptong.Framework.Domain.Contracts;
     using Tiptong.Framework.Domain.Factories;
 
