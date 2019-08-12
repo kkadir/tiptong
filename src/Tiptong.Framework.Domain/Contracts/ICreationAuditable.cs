@@ -5,22 +5,22 @@ namespace Tiptong.Framework.Domain.Contracts
     /// <summary>
     /// Enables auditing of the creation properties of an <see cref="Entity{T}"/>.
     /// </summary>
-    /// <typeparam name="TUserId">The primary key type of the user who created the entity.</typeparam>
+    /// <typeparam name="TUserId">The primary key type of the user who created the <see cref="Entity{T}"/>.</typeparam>
     public interface ICreationAuditable<TUserId>
     {
 
         /// <summary>
-        /// Gets or sets the user who created the entity.
+        /// Gets or sets the user who created the <see cref="Entity{T}"/>.
         /// </summary>
-        /// <value> The user who created the entity. </value>
+        /// <value> The user who created the <see cref="Entity{T}"/>. </value>
         TUserId CreatedBy { get; set; }
 
 
         /// <summary>
-        /// Gets or sets the creation time stamp of the entity.
+        /// Gets or sets the creation timestamp of the <see cref="Entity{T}"/>.
         /// </summary>
         /// <value>
-        /// The creation time stamp of the entity.
+        /// The creation timestamp of the <see cref="Entity{T}"/>.
         /// </value>
         DateTime CreationTimeStamp { get; set; }
     }
