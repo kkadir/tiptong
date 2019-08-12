@@ -7,8 +7,9 @@ namespace Tiptong.Framework.Domain.Contracts
     /// </summary>
     /// <typeparam name="TUser">
     /// The type of the user who created the <see cref="Entity{T}"/>.
+    /// <typeparam name="TPrimaryKey">The type of the primary key of the user.</typeparam>
     /// </typeparam>
-    public interface ICreationAuditable<TUser> where TUser : IEntity<TUser>
+    public interface ICreationAuditable<TUser, TPrimaryKey> where TUser : class, IEntity<TPrimaryKey>
     {
         /// <summary>
         /// Gets or sets the user who created the <see cref="Entity{T}"/>.
